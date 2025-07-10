@@ -36,7 +36,7 @@ Este es un proyecto que utiliza Vite como bundler para un proyecto de React con 
 Clona el proyecto
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/Ericksonxd165/Plantilla-React---DRF
 ```
 
 
