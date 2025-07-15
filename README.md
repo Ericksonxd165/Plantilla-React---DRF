@@ -83,3 +83,37 @@ Pueden escribir el siguiente comando para levantar el contenedor
 docker-compose up
 ```
 *Asegurarse de estar en la carpeta Raiz*
+
+## Atencion:
+## Si necesitas ejecutar el proyecto y no tienes docker puedes hacerlo de la siguiente manera:
+
+*Cambiate a la rama: Non-docker*
+
+Abres una terminal y vas a escribir:
+
+ ```bash
+  cd frontend
+```
+
+Y luego:
+
+ ```bash
+  npm install
+// Una vez se instale
+  npm run dev
+```
+y para correr el backend solamente Abriras una segunda terminal y vas a escribir:
+
+
+ ```bash
+  cd backend
+```
+Y Posteriormente:
+
+ ```bash
+  python manage.py makemigrations
+  python manage.py migrate
+  python manage.py runserver
+```
+
+*Teniendo ambas terminales abiertas podras usar el proyecto con una base de datos SQLite*
